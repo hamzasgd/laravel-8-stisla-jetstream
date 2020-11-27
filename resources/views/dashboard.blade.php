@@ -12,3 +12,10 @@
         <x-jet-welcome />
     </div>
 </x-app-layout>
+<script>
+    iziToast.success({
+    title: 'OK',
+    position:'topRight',
+    message: 'Successfully inserted record!',
+});
+</script>

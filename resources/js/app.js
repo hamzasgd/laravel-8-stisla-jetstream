@@ -1,6 +1,6 @@
 require('./bootstrap');
 
-function dataTableController (id) {
+function dataTableController(id) {
     return {
         id,
         deleteItem() {
@@ -21,7 +21,7 @@ function dataTableController (id) {
     }
 }
 
-function dataTableMainController () {
+function dataTableMainController() {
     return {
         setCallback() {
             Livewire.on('deleteResult', (result) => {
